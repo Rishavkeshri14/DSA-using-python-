@@ -39,3 +39,7 @@ if __name__ == "__main__":
 
     # Print the array between certain indices (Example: 0 to 5)
     print_array(arr, 0, 5)
+
+#output
+Is the key 222 present? Yes
+2 4 6 10 14 18 
