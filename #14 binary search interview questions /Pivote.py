@@ -2,10 +2,10 @@
 def get_pivot(arr, n):
     start = 0  # Start index
     end = n - 1  # End index
-    mid = start + (end - start) // 2  # Calculate the mid index
-    
+ 
     # Continue searching until start is less than end
-    while start < end:
+    while start <= end:
+        mid = start + end) // 2  # Calculate the mid index
         # If middle element is greater than or equal to the first element,
         # then pivot must be in the right half
         if arr[mid] >= arr[0]:
@@ -15,7 +15,7 @@ def get_pivot(arr, n):
             end = mid
         
         # Recalculate the mid index after adjusting start or end
-        mid = start + (end - start) // 2
+        
     
     # Return the start index which will be the pivot index
     return start
