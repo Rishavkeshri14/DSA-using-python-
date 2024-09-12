@@ -30,3 +30,17 @@ def first_and_last_position(arr, n, k):
     first = first_occ(arr, n, k)
     last = last_occ(arr, n, k)
     return (first, last)
+
+
+#Example
+arr = [2, 4, 10, 10, 10, 18, 20]
+n = len(arr)
+k = 10
+
+positions = first_and_last_position(arr, n, k)
+print(f"First occurrence of {k}: {positions[0]}")
+print(f"Last occurrence of {k}: {positions[1]}")
+
+#output
+First occurrence of 10: 2
+Last occurrence of 10: 4
