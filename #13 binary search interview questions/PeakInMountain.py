@@ -8,7 +8,7 @@ class Solution:
         s = 0  # Start index of the array
         e = len(v) - 1  # End index of the array
         # Binary search approach
-        while s < e:  # Continue until start is less than end
+        while s <= e:  # Continue until start is less than end
             mid = (s + e) // 2  # Initial midpoint 
         
             if v[mid] < v[mid + 1]:  # If middle element is less than the next element
