@@ -22,7 +22,9 @@ def get_pivot(arr, n):
 
 # Example usage
 if __name__ == "__main__":
-    arr = [1, 3, 8, 10, 17]
+    arr = [4,5,6,1,2,3]
     n = len(arr)
     print(f"Pivot is at index: {get_pivot(arr, n)}")
   
+#output
+Pivot is at index: 3
