@@ -1,9 +1,10 @@
 def binarySearch(arr, size, key):
   start = 0
   end = size-1
-  mid = start + (end-start)//2
-  
   while start <= end:
+
+    mid = (start + end)//2
+
     if arr[mid] == key:
       return mid
     
@@ -11,8 +12,6 @@ def binarySearch(arr, size, key):
       start = mid + 1
     else:
       end = mid - 1
-      
-    mid = start + (end-start)//2
   return -1
 
 if __name__ == '__main__':
