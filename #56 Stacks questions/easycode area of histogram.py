@@ -12,14 +12,14 @@ def max_sum(arr):
         # Iterate to the left of the current element
         for j in range(i, -1, -1):  # Reverse direction loop from i to 0
             if arr[j] <= arr[i]:  # Check if element is less than or equal to arr[i]
-                curr_sum += arr[j]
+                curr_sum += arr[i]
             else:
                 break  # Break if the condition is not met
 
         # Iterate to the right of the current element
         for j in range(i + 1, n):
             if arr[j] >= arr[i]:  # Check if the element is greater than or equal to arr[i]
-                curr_sum += arr[j]
+                curr_sum += arr[i]
             else:
                 break  # Break if the condition is not met
         
