@@ -28,4 +28,4 @@ solution = Solution()
 print(solution.check(nums1))  # Output: True
 print(solution.check(nums2))  # Output: False
 print(solution.check(nums3))  # Output: True
-print(solution.check(nums4))  # Output: True
+print(solution.check(nums4))  # Output: False
